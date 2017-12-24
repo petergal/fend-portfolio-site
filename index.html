@@ -2,12 +2,13 @@
 <html>
 
   <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <title>Peter Gal Web Development</title>
   </head>
 
@@ -16,7 +17,7 @@
       <header>
         <div class="row">
           <div class="col-md-6">
-            <img src="images/logo.png" class="logo">
+            <img src="images/logo.png" alt="Logo" class="logo">
           </div>
           <div class="col-md-6 text-right text-uppercase">
             <h1 class="text-thin">Peter Gal</h1>
@@ -24,33 +25,47 @@
           </div>
         </div>
       </header>
-      <div class="row">
-        <div class="col-md-12">
-          <img src="images/main.png" class="img-responsive">
+      <main>
+        <div class="row">
+          <div class="col-md-12">
+            <img src="images/main.png" alt="Main image" class="img-responsive">
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-muted">Featured Work</h2>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+          </div>
         </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <img src="./images/appify.png" class="img-responsive" data-toggle="modal" data-target="#project1">
-          <h3>Appify</h3>
-          <p><a href="http://github.com/">Link to project</a></p>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <figure>
+              <img src="./images/appify.png" alt="Project image" class="img-responsive" data-toggle="modal" data-target="#project1">
+              <figcaption>
+                <h3>Appify</h3>
+                <p><a href="http://github.com/">Link to project</a></p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure>
+              <img src="./images/sunflower.png" alt="Project image" class="img-responsive">
+              <figcaption>
+                <h3>Appify</h3>
+                <p><a href="http://github.com/">Link to project</a></p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure>
+              <img src="./images/bokeh.png" alt="Project image" class="img-responsive">
+              <figcaption>
+                <h3>Appify</h3>
+                <p><a href="http://github.com/">Link to project</a></p>
+              </figcaption>
+            </figure>
+          </div>
         </div>
-        <div class="col-md-4">
-          <img src="./images/sunflower.png" class="img-responsive">
-          <h3>Appify</h3>
-          <p><a href="http://github.com/">Link to project</a></p>
-        </div>
-        <div class="col-md-4">
-          <img src="./images/bokeh.png" class="img-responsive">
-          <h3>Appify</h3>
-          <p><a href="http://github.com/">Link to project</a></p>
-        </div>
-      </div>
+      </main>
       <footer>
         <p>©Copyright 2017 Peter Gal. All rights reversed.</p>
       </footer>
